@@ -1,0 +1,70 @@
+/*---------------------------------------------------------------------
+Font
+-----------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+/*---------------------------------------------------------------------
+import Css
+-----------------------------------------------------------------------*/
+@import "./dripicons.css";
+@import "./remixicon.css";
+@import "./line-awesome.min.css";
+@import "./ionicons.min.css";
+@import "./animate.css";
+@import "./developer.css";
+@import url("./slick.css");
+@import url("./slick-theme.css");
+@import url("./slick-animation.css");
+@import url("./owl.carousel.min.css");
+@import url("./select2.min.css");
+@import url("./select2-bootstrap4.min.css"); 
+
+.banner_slider {
+    max-width: 100%;
+    max-height: 620px;
+}
+
+.panel_height {
+    min-height: 670px;
+}
+
+.panel_height_channel {
+    min-height: 580px;
+}
+
+.channel_item {
+    margin:auto; 
+    width: 50%; 
+    padding: 10px;
+    /* text-align: -webkit-center; */
+}
+.sports_search {
+    height: 100px;
+}
+
+.vue-notification {
+    padding: 10px;
+    margin: 0 5px 5px;
+  
+    font-size: 12px;
+  
+    color: #ffffff;
+    background: #44A4FC;
+    border-left: 5px solid #187FE7;
+    
+    &.warn {
+        background: #ffb648;
+        border-left-color: #f48a06;
+    }
+    
+    &.error {
+        background: #E54D42;
+        border-left-color: #B82E24;
+    }
+    
+    &.success {
+        background: #68CD86;
+        border-left-color: #42A85F;
+    }
+}
